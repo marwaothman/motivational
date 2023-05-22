@@ -1,0 +1,175 @@
+
+
+.paragraph1 {
+    font-weight: 700;
+    margin: 0;
+    font-size: 32px;
+    text-align: center;
+  }
+ 
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+  .container1 {
+    padding: 10px;
+    background-color: gold;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  }
+.container2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+
+}
+img{
+height: 250px;
+width: 300px;
+object-fit: cover;
+padding: 20px;
+  }
+
+  table {
+    width: 100%;
+    justify-content: center;
+  }
+
+  td {
+    border: 10px solid white;
+    padding: 10px;
+    background-color: aquamarine;
+  }
+
+  .col1 {
+    width: 25%;
+  }
+
+  .col2 {
+    width: 25%;
+  }
+
+  .col3 {
+    width: 40%;
+  }
+  #title1{
+    color: blueviolet;
+    text-align: center;
+    font-size: 48px
+  }
+  #title2{
+    color: red;
+    font-size: 42;
+    font-weight: bolder;
+    text-align: center;
+  }
+  #title3{
+    color: seagreen;
+    font-weight: bolder;
+    text-align: center;
+  }
+ 
+
+  .one {
+    position: relative;
+    display: inline-block;
+    background-color: salmon;
+    width: 24%;
+    position: absolute;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .two {
+    position: relative;
+    display: inline-block;
+    background-color: seagreen;
+    position: absolute;
+    left: 28%;
+    width: 24%;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .three {
+    position: relative;
+    display: inline-block;
+    background-color: sandybrown;
+    position: absolute;
+    left: 54%;
+    width: 39%;
+    padding: 5px;
+    text-align: center;
+  }
+  #title4{
+    color: blue;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 42px;
+  }
+
+  .container3 {
+    display: flex;
+    gap: 10px;
+  }
+
+   #text{
+    background-color: darkseagreen;
+    text-align: center;
+  }
+  
+   
+
+  .top {
+    float: left;
+    width: 25%;
+    background-color: orange;
+    margin: 10px;
+    text-align: center;
+
+  }
+
+  .middel {
+    width: 25%;
+    float: left;
+    background-color: coral;
+    margin: 10px;
+    text-align: center;
+
+  }
+
+  .bottom {
+    float: left;
+    width: 40%;
+    background-color: skyblue;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .num1 {
+    width: 25%;
+    display: inline-block;
+    background-color: orchid;
+    text-align: left;
+  }
+
+  .num2 {
+    width: 25%;
+    display: inline-block;
+    background-color: lavender;
+    text-align: left;
+  }
+
+  .num3 {
+    width: 40%;
+    display: inline-block;
+    background-color: seashell;
+    text-align: left;
+  }
+  #list {
+    list-style-type: circle;  }
